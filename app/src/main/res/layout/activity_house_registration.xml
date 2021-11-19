@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.improvedhouse.profile.HouseRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ADD HOME DETAILS"
+                android:textAllCaps="true"
+
+                android:textSize="16sp"
+
+                />
+
+            <EditText
+                android:id="@+id/houseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="House Name"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/typeOfHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type Of House"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/rentAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rent Amount"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/typeOfSale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lease/Rent/Sale"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Email"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="ADD IMAGE OF HOME"
+                    android:textAllCaps="true"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/shop_image"
+                    android:layout_width="58dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/addicon" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

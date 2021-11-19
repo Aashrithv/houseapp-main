@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "801430528646",
+    "firebase_url": "https://improved-house-default-rtdb.firebaseio.com",
+    "project_id": "improved-house",
+    "storage_bucket": "improved-house.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801430528646:android:4bab336e47af936d142707",
+        "android_client_info": {
+          "package_name": "com.example.improvedhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801430528646-qqjf657hlu81hslqfgidvfmktpsikle2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK4UwEZRaUsEWMRXCLltGCsnH6KEyEIIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801430528646-qqjf657hlu81hslqfgidvfmktpsikle2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
